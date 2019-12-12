@@ -1,0 +1,161 @@
+In archive C:/Users/Sagarr/Desktop/bacnet_esp32/build/esp-idf/BME680/libBME680.a:
+
+bme680_platform.c.obj:     file format elf32-xtensa-le
+
+Sections:
+Idx Name          Size      VMA       LMA       File off  Algn
+  0 .text         00000000  00000000  00000000  00000034  2**0
+                  CONTENTS, ALLOC, LOAD, READONLY, CODE
+  1 .data         00000000  00000000  00000000  00000034  2**0
+                  CONTENTS, ALLOC, LOAD, DATA
+  2 .bss          00000000  00000000  00000000  00000034  2**0
+                  ALLOC
+  3 .bss.spi_sem  00000004  00000000  00000000  00000034  2**2
+                  ALLOC
+  4 .debug_info   000000a2  00000000  00000000  00000034  2**0
+                  CONTENTS, RELOC, READONLY, DEBUGGING
+  5 .debug_abbrev 0000004b  00000000  00000000  000000d6  2**0
+                  CONTENTS, READONLY, DEBUGGING
+  6 .debug_aranges 00000018  00000000  00000000  00000121  2**0
+                  CONTENTS, RELOC, READONLY, DEBUGGING
+  7 .debug_line   000000c0  00000000  00000000  00000139  2**0
+                  CONTENTS, READONLY, DEBUGGING
+  8 .debug_str    0000019e  00000000  00000000  000001f9  2**0
+                  CONTENTS, READONLY, DEBUGGING
+  9 .comment      0000003c  00000000  00000000  00000397  2**0
+                  CONTENTS, READONLY
+ 10 .xtensa.info  00000038  00000000  00000000  000003d3  2**0
+                  CONTENTS, READONLY
+ 11 .xt.prop      0000000c  00000000  00000000  0000040b  2**0
+                  CONTENTS, RELOC, READONLY
+
+bme680.c.obj:     file format elf32-xtensa-le
+
+Sections:
+Idx Name          Size      VMA       LMA       File off  Algn
+  0 .literal.calc_pressure 00000014  00000000  00000000  00000034  2**2
+                  CONTENTS, ALLOC, LOAD, READONLY, CODE
+  1 .literal.calc_humidity 00000008  00000000  00000000  00000048  2**2
+                  CONTENTS, ALLOC, LOAD, READONLY, CODE
+  2 .literal.calc_gas_resistance 0000001c  00000000  00000000  00000050  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  3 .literal.calc_heater_res 00000018  00000000  00000000  0000006c  2**2
+                  CONTENTS, ALLOC, LOAD, READONLY, CODE
+  4 .literal.calc_heater_dur 00000004  00000000  00000000  00000084  2**2
+                  CONTENTS, ALLOC, LOAD, READONLY, CODE
+  5 .literal.set_mem_page 00000004  00000000  00000000  00000088  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  6 .literal.get_mem_page 00000004  00000000  00000000  0000008c  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  7 .literal.bme680_get_regs 00000008  00000000  00000000  00000090  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  8 .literal.get_calib_data 00000018  00000000  00000000  00000098  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  9 .literal.bme680_init 0000000c  00000000  00000000  000000b0  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 10 .literal.get_gas_config 00000010  00000000  00000000  000000bc  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 11 .literal.read_field_data 00000018  00000000  00000000  000000cc  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 12 .literal.bme680_set_regs 00000008  00000000  00000000  000000e4  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 13 .literal.set_gas_config 00000010  00000000  00000000  000000ec  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 14 .literal.bme680_soft_reset 00000010  00000000  00000000  000000fc  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 15 .literal.bme680_get_sensor_settings 0000000c  00000000  00000000  0000010c  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 16 .literal.bme680_set_sensor_mode 00000010  00000000  00000000  00000118  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 17 .literal.bme680_set_sensor_settings 0000003c  00000000  00000000  00000128  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 18 .literal.bme680_get_sensor_mode 00000008  00000000  00000000  00000164  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 19 .literal.bme680_set_profile_dur 00000010  00000000  00000000  0000016c  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 20 .literal.bme680_get_profile_dur 00000010  00000000  00000000  0000017c  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 21 .literal.bme680_get_sensor_data 00000008  00000000  00000000  0000018c  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 22 .text         00000000  00000000  00000000  00000194  2**0
+                  CONTENTS, ALLOC, LOAD, READONLY, CODE
+ 23 .data         00000000  00000000  00000000  00000194  2**0
+                  CONTENTS, ALLOC, LOAD, DATA
+ 24 .bss          00000000  00000000  00000000  00000194  2**0
+                  ALLOC
+ 25 .text.calc_temperature 0000008b  00000000  00000000  00000194  2**2
+                  CONTENTS, ALLOC, LOAD, READONLY, CODE
+ 26 .text.calc_pressure 000000d1  00000000  00000000  00000220  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 27 .text.calc_humidity 000000e2  00000000  00000000  000002f4  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 28 .rodata       00000086  00000000  00000000  000003d8  2**2
+                  CONTENTS, ALLOC, LOAD, READONLY, DATA
+ 29 .text.calc_gas_resistance 000000c6  00000000  00000000  00000460  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 30 .text.calc_heater_res 000000b5  00000000  00000000  00000528  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 31 .text.calc_heater_dur 00000032  00000000  00000000  000005e0  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 32 .text.boundary_check 0000003a  00000000  00000000  00000614  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 33 .text.null_ptr_check 0000002e  00000000  00000000  00000650  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 34 .text.set_mem_page 00000080  00000000  00000000  00000680  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 35 .text.get_mem_page 0000003e  00000000  00000000  00000700  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 36 .text.bme680_get_regs 0000004e  00000000  00000000  00000740  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 37 .text.get_calib_data 000001ac  00000000  00000000  00000790  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 38 .text.bme680_init 00000048  00000000  00000000  0000093c  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 39 .text.get_gas_config 00000064  00000000  00000000  00000984  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 40 .text.read_field_data 00000103  00000000  00000000  000009e8  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 41 .text.bme680_set_regs 000000bd  00000000  00000000  00000aec  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 42 .text.set_gas_config 00000066  00000000  00000000  00000bac  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 43 .text.bme680_soft_reset 0000005e  00000000  00000000  00000c14  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 44 .text.bme680_get_sensor_settings 000000aa  00000000  00000000  00000c74  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 45 .text.bme680_set_sensor_mode 0000008a  00000000  00000000  00000d20  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 46 .text.bme680_set_sensor_settings 00000295  00000000  00000000  00000dac  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 47 .text.bme680_get_sensor_mode 00000030  00000000  00000000  00001044  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 48 .text.bme680_set_profile_dur 0000004e  00000000  00000000  00001074  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 49 .text.bme680_get_profile_dur 00000057  00000000  00000000  000010c4  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 50 .text.bme680_get_sensor_data 0000003b  00000000  00000000  0000111c  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 51 .debug_frame  00000268  00000000  00000000  00001158  2**2
+                  CONTENTS, RELOC, READONLY, DEBUGGING
+ 52 .debug_info   0000179a  00000000  00000000  000013c0  2**0
+                  CONTENTS, RELOC, READONLY, DEBUGGING
+ 53 .debug_abbrev 0000021b  00000000  00000000  00002b5a  2**0
+                  CONTENTS, READONLY, DEBUGGING
+ 54 .debug_loc    00001160  00000000  00000000  00002d75  2**0
+                  CONTENTS, RELOC, READONLY, DEBUGGING
+ 55 .debug_aranges 000000e0  00000000  00000000  00003ed5  2**0
+                  CONTENTS, RELOC, READONLY, DEBUGGING
+ 56 .debug_ranges 000000d0  00000000  00000000  00003fb5  2**0
+                  CONTENTS, RELOC, READONLY, DEBUGGING
+ 57 .debug_line   00000ccd  00000000  00000000  00004085  2**0
+                  CONTENTS, RELOC, READONLY, DEBUGGING
+ 58 .debug_str    000007eb  00000000  00000000  00004d52  2**0
+                  CONTENTS, READONLY, DEBUGGING
+ 59 .comment      0000003c  00000000  00000000  0000553d  2**0
+                  CONTENTS, READONLY
+ 60 .xtensa.info  00000038  00000000  00000000  00005579  2**0
+                  CONTENTS, READONLY
+ 61 .xt.lit       000000b0  00000000  00000000  000055b1  2**0
+                  CONTENTS, RELOC, READONLY
+ 62 .xt.prop      00000954  00000000  00000000  00005661  2**0
+                  CONTENTS, RELOC, READONLY

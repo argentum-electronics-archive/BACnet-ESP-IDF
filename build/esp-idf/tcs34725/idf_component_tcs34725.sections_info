@@ -1,0 +1,96 @@
+In archive C:/Users/Sagarr/Desktop/bacnet_esp32/build/esp-idf/tcs34725/libtcs34725.a:
+
+TCS34725.c.obj:     file format elf32-xtensa-le
+
+Sections:
+Idx Name          Size      VMA       LMA       File off  Algn
+  0 .literal.i2c_master_write_slaveL 00000020  00000000  00000000  00000034  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  1 .literal.i2c_master_read_slaveL 00000030  00000000  00000000  00000054  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  2 .literal.disable 00000010  00000000  00000000  00000084  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  3 .literal.enable 00000020  00000000  00000000  00000094  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  4 .literal.setGain 00000014  00000000  00000000  000000b4  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  5 .literal.sensor_init 00000020  00000000  00000000  000000c8  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  6 .literal.setIntegrationTime 00000014  00000000  00000000  000000e8  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  7 .literal.getRawData 0000002c  00000000  00000000  000000fc  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  8 .literal.getRGB 00000018  00000000  00000000  00000128  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  9 .literal.calculateColorTemperature 0000008c  00000000  00000000  00000140  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 10 .literal.calculateLux 0000000c  00000000  00000000  000001cc  2**2
+                  CONTENTS, ALLOC, LOAD, READONLY, CODE
+ 11 .literal.calculatePhotonCount 00000038  00000000  00000000  000001d8  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 12 .text         00000000  00000000  00000000  00000210  2**0
+                  CONTENTS, ALLOC, LOAD, READONLY, CODE
+ 13 .data         00000000  00000000  00000000  00000210  2**0
+                  CONTENTS, ALLOC, LOAD, DATA
+ 14 .bss          00000000  00000000  00000000  00000210  2**0
+                  ALLOC
+ 15 .text.i2c_master_write_slaveL 0000006a  00000000  00000000  00000210  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 16 .text.i2c_master_read_slaveL 000000ae  00000000  00000000  0000027c  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 17 .text.disable 0000003e  00000000  00000000  0000032c  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 18 .rodata.str1.4 0000003d  00000000  00000000  0000036c  2**2
+                  CONTENTS, ALLOC, LOAD, READONLY, DATA
+ 19 .text.enable  0000004d  00000000  00000000  000003ac  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 20 .text.setGain 0000002e  00000000  00000000  000003fc  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 21 .text.sensor_init 00000068  00000000  00000000  0000042c  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 22 .text.setIntegrationTime 0000002e  00000000  00000000  00000494  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 23 .text.getRawData 000000f4  00000000  00000000  000004c4  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 24 .text.getRGB  00000086  00000000  00000000  000005b8  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 25 .text.calculateColorTemperature 0000015e  00000000  00000000  00000640  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 26 .text.calculateLux 0000003e  00000000  00000000  000007a0  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 27 .text.calculatePhotonCount 00000047  00000000  00000000  000007e0  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 28 .rodata._tcs34725Gain 00000004  00000000  00000000  00000828  2**2
+                  CONTENTS, ALLOC, LOAD, READONLY, DATA
+ 29 .rodata._tcs34725IntegrationTime 00000004  00000000  00000000  0000082c  2**2
+                  CONTENTS, ALLOC, LOAD, READONLY, DATA
+ 30 .bss.data     00000001  00000000  00000000  00000830  2**0
+                  ALLOC
+ 31 .bss.reg      00000001  00000000  00000000  00000830  2**0
+                  ALLOC
+ 32 .bss._tcs34725Initialised 00000001  00000000  00000000  00000830  2**0
+                  ALLOC
+ 33 .debug_frame  00000130  00000000  00000000  00000830  2**2
+                  CONTENTS, RELOC, READONLY, DEBUGGING
+ 34 .debug_info   00000bb1  00000000  00000000  00000960  2**0
+                  CONTENTS, RELOC, READONLY, DEBUGGING
+ 35 .debug_abbrev 0000021e  00000000  00000000  00001511  2**0
+                  CONTENTS, READONLY, DEBUGGING
+ 36 .debug_loc    000003f6  00000000  00000000  0000172f  2**0
+                  CONTENTS, RELOC, READONLY, DEBUGGING
+ 37 .debug_aranges 00000078  00000000  00000000  00001b25  2**0
+                  CONTENTS, RELOC, READONLY, DEBUGGING
+ 38 .debug_ranges 00000068  00000000  00000000  00001b9d  2**0
+                  CONTENTS, RELOC, READONLY, DEBUGGING
+ 39 .debug_line   000005ee  00000000  00000000  00001c05  2**0
+                  CONTENTS, RELOC, READONLY, DEBUGGING
+ 40 .debug_str    00000579  00000000  00000000  000021f3  2**0
+                  CONTENTS, READONLY, DEBUGGING
+ 41 .comment      0000003c  00000000  00000000  0000276c  2**0
+                  CONTENTS, READONLY
+ 42 .xtensa.info  00000038  00000000  00000000  000027a8  2**0
+                  CONTENTS, READONLY
+ 43 .xt.lit       00000060  00000000  00000000  000027e0  2**0
+                  CONTENTS, RELOC, READONLY
+ 44 .xt.prop      0000030c  00000000  00000000  00002840  2**0
+                  CONTENTS, RELOC, READONLY
