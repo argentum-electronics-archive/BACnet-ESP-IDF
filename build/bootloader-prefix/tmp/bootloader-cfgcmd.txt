@@ -1,1 +1,0 @@
-cmd='C:/Users/Sagarr/.espressif/tools/cmake/3.13.4/bin/cmake.exe;-DSDKCONFIG=C:/Users/Sagarr/Desktop/bacnet_esp32/sdkconfig;-DIDF_PATH=C:/Users/Sagarr/Desktop/esp-idf;-DSECURE_BOOT_SIGNING_KEY=C:/Users/Sagarr/Desktop/bacnet_esp32;-DEXTRA_COMPONENT_DIRS=C:/Users/Sagarr/Desktop/esp-idf/components/bootloader;-GNinja;<SOURCE_DIR><SOURCE_SUBDIR>'
